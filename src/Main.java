@@ -14,6 +14,11 @@ class Calculator {
     int mult(int n1, int n2) {
         return n1 * n2;
     }
+
+    int div(int n1, int n2)
+    {
+        return n1/n2;
+    }
 }
 
 public class Main {
@@ -31,6 +36,7 @@ public class Main {
         System.out.println("Addition Result: " + cal.add(n1, n2));
         System.out.println("Subtraction: " + cal.sub(n1, n2));
         System.out.println("Multiplication Result: " + cal.mult(n1, n2));
+        System.out.println("Division Result: " + cal.div(n1, n2));
         input.close();
     }
 }
