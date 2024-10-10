@@ -37,6 +37,7 @@ public class Main {
         System.out.println("Subtraction: " + cal.sub(n1, n2));
         System.out.println("Multiplication Result: " + cal.mult(n1, n2));
         System.out.println("Division Result: " + cal.div(n1, n2));
+        System.out.println("Ending");
         input.close();
     }
 }
